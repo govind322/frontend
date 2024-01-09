@@ -1,0 +1,72 @@
+.stock-dashboard {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .stock-dashboard h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .stock-dashboard form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .stock-dashboard input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    flex-grow: 1;
+    max-width: 300px;
+  }
+  
+  .stock-dashboard button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .stock-dashboard button:hover {
+    background-color: #218838;
+  }
+  
+  .stock-dashboard p {
+    text-align: center;
+  }
+  
+  /* Chart.js default styles */
+  .chart-container {
+    position: relative;
+    margin: auto;
+    height: 500px;
+    width: 100%;
+  }
+  
+  /* Loading and error messages */
+  .message {
+    padding: 20px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .chart-container {
+    width: 100%;
+    height: 400px; /* or any other height */
+  }
